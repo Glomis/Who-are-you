@@ -36,10 +36,10 @@ extension Question{
             ), Question(text: "Любите ли вы поездки на машине?",
                         type: .ranged,
                         answers: [
-                            Answer(text: "Обожаю", type: .dog),
                             Answer(text: "Ненавижу", type: .cat),
                             Answer(text: "Нервничаю", type: .rabbit),
-                            Answer(text: "Не замечаю", type: .turtle)
+                            Answer(text: "Не замечаю", type: .turtle),
+                            Answer(text: "Обожаю", type: .dog)
                 ]
             )
         ]
